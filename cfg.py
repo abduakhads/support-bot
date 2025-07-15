@@ -1,5 +1,8 @@
-import envcfg
+from os import getenv
+from dotenv import load_dotenv
 
-BOT_TOKEN = envcfg.BOT_TOKEN
+load_dotenv()
 
-SUPPORT = envcfg.SUPPORT
+BOT_TOKEN = getenv("BOT_TOKEN")
+
+SUPPORT = getenv("SUPPORT")
