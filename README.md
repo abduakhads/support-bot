@@ -4,7 +4,7 @@ SupportBot is a lightweight Python-based chatbot designed to provide support and
 
 ## Features
 
-- **No Database Required:** All data and logic are managed in code, so you don't need to set up or maintain a database.
+- **No Database Required:** All data along with message ids are sent directly to support user.
 - **Simple Setup:** Just install the dependencies and run the bot.
 - **Customizable:** Easily modify the bot's behavior by editing the Python files.
 
